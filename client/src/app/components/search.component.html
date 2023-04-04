@@ -1,0 +1,9 @@
+<div class="box">
+    <form [formGroup]="form" (ngSubmit)="search()">
+        <mat-form-field appearance="fill">
+            <mat-label>Character Name</mat-label>
+            <input matInput size="60" formControlName="charName"/>
+        </mat-form-field>
+        <button mat-raised-button type="submit">Search</button>
+    </form>
+</div>
